@@ -1,0 +1,108 @@
+body {
+    margin: 15px;
+    height: 100vh;
+    background: linear-gradient(287.56deg, #fff 0%, #6c626259 100%);
+}
+
+.titulo {
+    padding: 20px;
+    font-size: 50px;
+    color: #fff;
+   
+}
+
+.cabeça{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(287.56deg, #656565 0%, #05050559 100%) ;
+    height: 100px;
+    gap: 100px;
+    justify-content: space-around;
+    
+}
+
+.c2{
+    color: black;
+}
+
+.c1{
+    color:#6c0000;
+}
+
+.texto {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+h4 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+
+}
+
+.botao2 {
+    background-color:black;
+    color:#fff;
+    width: 110px;
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.foto1 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+
+    border-radius: 50px;
+
+}
+
+.divTexto{
+    background: linear-gradient(287.56deg, #656565 0%, #05050559 100%);
+    color: #fff;
+    width: 100%;
+    height: 500px;
+    border-radius: 2px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 60 px;
+    flex-direction: column;
+}
+
+.c3{
+    color: black;
+
+}
+
+.botao {
+    display: flex;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    width: 120px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+
+}
+

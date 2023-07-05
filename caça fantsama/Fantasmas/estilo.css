@@ -1,0 +1,106 @@
+body {
+    margin: 15px;
+    height: 100vh;
+    background: linear-gradient(287.56deg, #fff 0%, #6c626259 100%);
+}
+
+.titulo {
+    padding: 20px;
+    font-size: 50px;
+    color: #fff;
+   
+}
+
+.cabeça{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(287.56deg, #656565 0%, #05050559 100%) ;
+    height: 100px;
+    gap: 100px;
+    justify-content: space-around;
+    
+}
+
+.c2{
+    color: black;
+}
+
+.c1{
+    color:#6c0000;
+}
+
+.c3{
+    color: black;
+}
+
+.botao {
+    display: flex;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    width: 120px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.img1{
+    width: 200px; 
+    height: 200px;
+    grid-area: img1;
+    
+}
+
+.img2{
+    width: 200px; 
+    height: 200px;
+    grid-area: img2;
+}
+
+.img3{
+    width: 200px; 
+    height: 500px;
+    
+}
+
+.grid-container{
+    height: 500px;
+    display: flex; 
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.flex-container{
+    width: 200px; 
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-fotos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.miniTexto{
+    font-size: 20;
+}
+
+.cor1{
+    color: #128a2c;
+}
+
+.hr1{
+    height: 2px;
+    background-color: rgb(7, 7, 7);
+}
+
+a{
+    text-decoration: none;
+}
